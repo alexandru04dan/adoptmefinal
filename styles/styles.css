@@ -1,0 +1,61 @@
+:root {
+    /*Culorile si marimile sunt luate de pe Tailwind CSS*/
+
+    /*culori*/
+    --bg:#18181b;
+    --thirdbg:#121213;
+    --primary:#0369a1;
+    --accent:#84cc16;
+    --text:#e5e5e5;
+    --secondbg:#0c0a09;
+
+    /*marimi*/
+    --size-xxs: 0.5em;
+    --size-xs: 0.75em;
+    --size-s: 0.875em;
+    --size-base: 1em;
+    --size-l: 1.25em;
+    --size-2xl: 1.5em;
+    --size-3xl: 1.875em;
+    --size-4xl: 2.25em;
+    --size-5xl: 3em;
+    --size-6xl: 3.75em;
+    --size-7xl: 4.5em;
+    --size-8xl: 6em;
+    --size-9xl: 8em;
+    --size-10xl: 10em;
+
+
+}
+* {
+    margin: 0;
+    line-height : calc(1em + 0.5rem); /*text more readable, l am luat de pe net :)*/
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Author', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+}
+img, picture, video, canvas, svg{
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+button { /*am eliminat orice element useless in buton pentru stilizare mai usoara*/
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: var(--text);
+}
+a{
+    color: var(--primary);
+    text-decoration: none;
+}
+strong {
+    color: var(--accent);
+}

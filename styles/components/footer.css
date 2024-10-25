@@ -1,0 +1,36 @@
+.footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    background-color: var(--secondbg);
+    color: var(--text);
+    /* border: 1px solid red; */
+}
+.footer__p{
+    max-width: 60ch;
+    font-size: var(--size-base);
+}
+/*xs*/
+@media (min-width: 475px) {
+    .footer {
+        gap: 1.5rem;
+    }
+    .footer__p{
+        font-size: var(--size-l);
+    }
+}
+
+
+/*l*/
+@media (min-width: 1024px) {
+    .footer {
+        gap: 2rem;
+    }
+    .footer__p{
+        font-size: var(--size-3xl);
+    }
+}
