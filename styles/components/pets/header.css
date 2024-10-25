@@ -1,0 +1,66 @@
+.petsgreeting {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    background-color: var(--bg);
+    color: var(--text);
+    /* border: 1px solid red; */
+}
+.petsgreeting__img{
+    width: 25em;
+    height: 25em;
+    /* border: 1px solid red; */
+    filter: grayscale(1);
+}
+.petsgreeting__img:hover{
+    filter: grayscale(0);
+    transition: filter 1s;
+}
+.petsgreeting__heading{
+    text-transform: uppercase;
+    font-size: var(--size-2xl);
+    letter-spacing: -0.05em;
+    line-height: 0.9;
+}
+.petsgreeting__p{
+    max-width: 60ch;
+    font-size: var(--size-base);
+}
+/*xs*/
+@media (min-width: 475px) {
+    .petsgreeting {
+        gap: 1.5rem;
+    }
+    .petsgreeting__img{
+        width: 25.5em;
+        height: 25.5em;
+    }
+    .petsgreeting__heading{
+        font-size: var(--size-3xl);
+    }
+    .petsgreeting__p{
+        font-size: var(--size-l);
+    }
+}
+
+
+/*l*/
+@media (min-width: 1024px) {
+    .petsgreeting {
+        gap: 2rem;
+    }
+    .petsgreeting__img{
+        width: 35em;
+        height: 35em;
+    }
+    .petsgreeting__heading{
+        font-size: var(--size-5xl);
+    }
+    .petsgreeting__p{
+        font-size: var(--size-3xl);
+    }
+}
