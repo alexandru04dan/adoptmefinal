@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdoptMe - Contact</title>
+    <link rel="stylesheet" href="contact1.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/utilities.css">
+    <link rel="stylesheet" href="styles/components/header.css">
+    <link rel="stylesheet" href="styles/components/footer.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=author@400,500,600,700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="header container">
+        <nav>
+            <ul class="header__menu">
+                <li><a class="header__link" href="index.html">Acasa</a></li>
+                <li><a class="header__link" href="pets.html">Adopta</a></li>
+                <li><a class="header__link" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-us">
+            <h2>Contactează-ne</h2>
+            <p>Suntem aici pentru a te ajuta să găsești cel mai bun prieten. Completează formularul de mai jos sau folosește metodele de contact oferite.</p>
+        <div class="section"></div> <!--Empty space-->
+
+            <form action="#" method="POST">
+                <label for="name">Nume:</label>
+                <input type="text" id="name" name="name" placeholder="Numele tău" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email-ul tău" required>
+
+                <label for="subject">Subiect:</label>
+                <input type="text" id="subject" name="subject" placeholder="Subiectul mesajului" required>
+
+                <label for="message">Mesaj:</label>
+                <textarea id="message" name="message" placeholder="Scrie mesajul tău aici..." rows="5" required></textarea>
+
+                <button type="submit" aria-label="Send message">Trimite mesajul</button>
+            </form>
+        </section>
+
+        <section class="contact-info">
+            <h2>Informații de contact</h2>
+            <p>Dacă preferi, ne poți contacta folosind următoarele informații:</p>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:contact@adoptme.com">contact@adoptme.com</a></li>
+                <li><strong>Telefon:</strong> <a href="tel:+40123456789">+40 123 456 789</a></li>
+                <li><strong>Adresă:</strong> Strada Animalelor 123, București, România</li>
+            </ul>
+        </section>
+
+        <section class="social-media">
+            <h2>Urmărește-ne pe rețelele sociale</h2>
+            <p>Fii la curent cu ultimele noutăți și povești de succes:</p>
+            <ul>
+                <li><a href="https://www.facebook.com/adoptme" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/adoptme" target="_blank">Instagram</a></li>
+                <li><a href="https://www.twitter.com/adoptme" target="_blank">Twitter</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer container">
+        <p class="footer__p">Acesta este un proiect fondat de Alexandru, Laurențiu și Andreea.</p>
+    </footer> 
+</body>
+</html>

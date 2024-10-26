@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+ul {
+    list-style: none;
+    margin: 16px;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+li {
+    display: inline;
+}
+
+.homeBtn {
+    text-decoration: none;
+    font-size: 18.4px;
+    color: var(--text);
+    background-color: var(--bg);
+    padding: 8px;
+    margin: 16px;
+    border-radius: 8px;
+    margin-right: 80%;
+    box-shadow: 0 4px 12px #18181b;
+}
+
+.homeBtn:hover {
+    color: #18181b;
+    background-color: #fbbf24;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.petsBtn, .submitBtn, .contactBtn {
+    text-decoration: none;
+    font-size: 16.8px;
+    color: #18181b;
+}
+
+.petsBtn:hover, .submitBtn:hover, .contactBtn:hover {
+    color: #fbbf24;
+    transition: 0.5s;
+}
+
+.contact-us {
+    background-color: var(--bg);
+    padding: 5%;
+    color: var(--text);
+    text-align: center;
+}
+
+.contact-us form {
+    background-color: var(--thirdbg);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px #18181b;
+    width: 50%;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: var(--text);
+}
+
+form input, form textarea {
+    width: 90%;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    border: 1px solid var(--primary);
+    background-color: var(--bg);
+    color: var(--text);
+    font-size: 16.8px;
+    box-shadow: 0 1.6px 4px #18181b;
+}
+
+form button {
+    padding: 16px;
+    border-radius: 16px;
+    background-color: transparent;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    box-shadow: none;
+    transition: transform 1s ease;
+}
+
+form button:hover {
+    background-color: var(--primary);
+    color: var(--text);
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0 10px 20px rgba(14, 165, 233, 0.2)
+
+}
+
+.contact-info, .social-media {
+    background-color: var(--thirdbg);
+    color: var(--text);
+    padding: 5%;
+    text-align: center;
+}
+
+.contact-info ul, .social-media ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info ul li, .social-media ul li {
+    margin-bottom: 16px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #fbbf24;
+}
+
+.social-media a:hover {
+    color: #fafafa;
+    transition: 0.5s;
+}
