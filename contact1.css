@@ -123,3 +123,7 @@ form button:hover {
     color: #fafafa;
     transition: 0.5s;
 }
+.contact-info a:hover{
+    color: var(--text);
+    transition: color 1s;
+}
