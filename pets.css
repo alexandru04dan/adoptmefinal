@@ -86,20 +86,6 @@ section {
     border-radius: 10px;
 }
 
-.join button {
-    background-color: var(--bg);
-    color: var(--secondary);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.join button:hover {
-    background-color: var(--bg);
-    color: var(--bg);
-}
 
 footer {
     padding: 15px;
